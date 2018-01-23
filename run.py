@@ -13,7 +13,6 @@ import sys
 from getGoogle import *
 from flask import Flask, request, render_template
 
-
 logpath=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"TestHt/log/")
 logging.basicConfig(
                     level=logging.DEBUG,
